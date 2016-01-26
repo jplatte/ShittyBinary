@@ -29,5 +29,7 @@ void main(void) {
 ```
 
 Port copyright (r) 2016 cmpsb.net (tm)
+
 Logic copyright (r) 2016 jplatte
+
 Nand patch copyright (r) 2016 cmpsb.nl (tm)
