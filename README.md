@@ -2,6 +2,7 @@
 A library I ported to C, because C only supports base 10 and base 16. Try it for yourself!
 
 This is a port of https://github.com/jplatte/ShittyBinary
+
 Send any suggestions to the maintainer of the C++ library, not me.
 
 ## Example
