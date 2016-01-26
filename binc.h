@@ -126,7 +126,7 @@ static CBinary * cb_Nand(CBinary * a, CBinary * b) {
 }
 
 static char * cb_ToString(CBinary * bin) {
-    char * string = calloc(bin->numBits + 1, sizeof(uint16_t));
+    char * string = calloc(bin->numBits + 1, sizeof(uint16_t)); // Print as UTF-16 for Windows
 
     int i;
     for(i = 0; i < bin->numBits; i++) {
