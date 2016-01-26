@@ -50,7 +50,7 @@ static CBinary * cb_And(CBinary * a, CBinary * b) {
     result->numBits = size;
 
     for(int i = 0; i < size; ++i) {
-        if(i < a->numBits && i < b->numBits && a->bits[i] == 1 && b->bits[i] == 1) {
+        if(i < a->numBits && i < b->numBits && a->numBits == 1 && b->numBits == 1) {
             result->bits[i] = 1;
         }
         else if(i >= a->numBits && b->bits[i] == 0) result->bits[i] = 0;
@@ -126,7 +126,7 @@ static CBinary * cb_Nand(CBinary * a, CBinary * b) {
 }
 
 static char * cb_ToString(CBinary * bin) {
-    char * string = calloc(bin->numBits + 1, sizeof(uint16_t)); // Print as UTF-16 for Windows
+    char * string = calloc(bin->numBits + 1, sizeof(uint16_t));
 
     int i;
     for(i = 0; i < bin->numBits; i++) {
