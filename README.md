@@ -29,6 +29,16 @@ void main(void) {
 }
 ```
 
+This prints:
+
+```
+1011101101
+0101110101
+0000000000
+1110011010
+1110011000
+```
+
 Port copyright (r) 2016 cmpsb.net (tm)
 
 Logic copyright (r) 2016 jplatte
