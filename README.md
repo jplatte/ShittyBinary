@@ -31,7 +31,9 @@ For more usage information, just read the [source code][source]! It's self-docum
 If you need any additional features, contact me at [git@github.com][email] or via Issues.
 
 Also, it would be really cool if someone could port this to other languages, I'm sure
-there are many other languages that don't support binary numbers!
+there are many other languages that don't support binary numbers! Existing ports:
+
+* [C](https://github.com/jplatte/ShittyBinary/tree/master/c#binary-c)
 
 [source]: https://github.com/jplatte/ShittyBinary/blob/master/c++/binary.cc#LC1
 [email]: https://github.com/jplatte/ShittyBinary/issues
